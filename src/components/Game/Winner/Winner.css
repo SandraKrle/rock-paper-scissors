@@ -1,0 +1,23 @@
+.winner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.winner-text {
+  text-transform: uppercase;
+  font-size: var(--header-lg);
+  margin: 1rem auto;
+}
+
+.play-again {
+  border: 2px white var(--header-outline);
+  width: max-content;
+  padding: .5rem 2rem;
+  border-radius: var(--border-radius);;
+  background: white;
+  color: var(--dark-text);
+  font-size: var(--header-sm);
+  text-transform: uppercase;
+  margin: 0 auto;
+}

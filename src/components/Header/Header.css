@@ -1,0 +1,15 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 'logo . scoreboard';
+  border: 4px solid var(--header-outline);
+  border-radius: var(--border-radius);
+  margin: 2rem auto 2rem;
+  padding: 16px;
+  width: min(80%, 600px);
+}
+
+.header-logo {
+  grid-area: logo;
+  align-self: center;
+}

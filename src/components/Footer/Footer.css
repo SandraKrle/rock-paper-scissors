@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.cta {
+  font-family: inherit;
+  text-transform: uppercase;
+  font-size: var(--header-xs);
+  border: 2px solid hsl(217, 16%, 45%);
+  border-radius: var(--border-radius);;
+  padding: 4px 25px;
+  background: transparent;
+  color: white;
+}

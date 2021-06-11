@@ -1,0 +1,16 @@
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.game .winner {
+  width: 100%;
+}
+
+.choice-text {
+  text-transform: uppercase;
+  font-size: var(--header-sm);
+  margin: 1rem auto;
+}

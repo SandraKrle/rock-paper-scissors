@@ -1,8 +1,34 @@
 body {
+  --mobile-breakpoint: 375px;
+  --desktop-breakpoint: 1366px;
+
+  /* Sizes */
+  --triangle-size: 500px;
+  --border-radius: 10px;
+
+  /* Colors */
+  --header-outline: hsl(217, 16%, 45%);
+
+  --icon-scissors-border: hsl(39, 89%, 49%);
+  --icon-paper-border: hsl(230, 89%, 62%);
+  --icon-rock-border: hsl(349, 71%, 52%);
+
+  --radial-gradient: hsl(214, 47%, 23%) to hsl(237, 49%, 15%);
+
+  /* Text */
+  --dark-text: hsl(229, 25%, 31%);
+  --score-text: hsl(229, 64%, 46%);
+
+  --header-xs: 1rem;
+  --header-sm: 1.4rem;
+  --header-lg: 4rem;
+
+
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Barlow Semi Condensed', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  background: radial-gradient(circle, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +36,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.icon img {
+  width: 80%;
+  height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .icon img {
+    width: 60%;
+    height: auto;
+  }
 }

@@ -1,0 +1,7 @@
+.computer-choice--selected {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  min-height: 250px;
+  justify-content: center;
+}
