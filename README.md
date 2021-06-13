@@ -16,3 +16,5 @@ To launch the tests
  - Unit tests with react testing library
  - Responsive, mobile first approach
  - Animations
+
+![Game screenshot](src/assets/svg/screenshot.png)
